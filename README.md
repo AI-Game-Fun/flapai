@@ -1,13 +1,13 @@
 # FlapAI: Genetic algorithm playing Flappy Bird (Python)
 ### Introduction
 ---
-**FlapAI** is a genetic algorithm coded in Python teaching itself  how to play Flappy Bird. It can reach score of 1000+ pipes in less than 100 generations. It is based on [FlapPyBird](https://github.com/sourabhv/FlapPyBird). All settings can be found in **config.py**. Neural networks are saved in a json file for further evaluation. Each time you run FlapAI, statistics and the neural network of the best performing bird are saved in the directory **save/**
+**FlapAI** is a genetic algorithm coded in Python teaching itself how to play Flappy Bird. It can reach score of 1000+ pipes in less than 100 generations. It is based on [FlapPyBird](https://github.com/sourabhv/FlapPyBird). All settings can be found in **config.py**. Neural networks are saved in a json file for further evaluation. Each time you run FlapAI, statistics and the neural network of the best performing bird are saved in the directory **save/**
 ### Features
 ---
 - Customizable genetic algorithm
 - Speed up *(FPS can be set)*
 - Statistics
-- Running a single Neural Network from a json file multiple time
+- Running a single Neural Network from a json file
 - Cool ASCII art
 
 ### Requirements
@@ -34,7 +34,7 @@ python flapai.py -stats save/2016-08-27_17:16:04
 ```
 ### Keyboard commands
 ---
-Press **UP ARROW** while focusing the game window to speed up the game **(if the screen is frozen it means that pygame don't redraw the window anymore which speed the algorithm a lot)**
+Press **UP ARROW** while focusing the game window to speed up the game **(if the screen is frozen it means that pygame doesn't redraw the window anymore which speeds up the algorithm a lot)**
 #
 Press **DOWN ARROW** while focusing the game window to slow down the game
 #
